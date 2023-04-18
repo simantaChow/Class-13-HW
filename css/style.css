@@ -1,0 +1,174 @@
+/* Common Css Start */
+:root {
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2 {
+  font-family: "PT Sans", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  width: 1440px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.w-30 {
+  width: 30%;
+}
+.w-32 {
+  width: 32%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-100 {
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.d-block {
+  display: block;
+}
+/* Common Css End */
+
+/* navbar css start*/
+
+#navbar {
+  height: 67px;
+}
+
+#navbar .row {
+  height: 67px;
+}
+
+#navbar ul li {
+  padding: 18px;
+}
+
+#navbar ul li a {
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 500;
+  color: #353535;
+  padding: 18px 22.5px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: relative;
+}
+
+#navbar ul li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #353535;
+  transition: 0.5s;
+  transform: scaleX(0);
+}
+#navbar ul li a:hover::before {
+  transform: scaleX(1);
+}
+/* navbar css end*/
+
+/* banner css start*/
+#banner .content_sec p:nth-child(1) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #353535;
+  padding-top: 100px;
+}
+
+#banner .content_sec p:nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 190%;
+  color: #353535;
+  width: 323px;
+}
+
+#banner .content_sec h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 83px;
+  color: #353535;
+}
+
+#banner .content_sec a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  width: 209px;
+  height: 69px;
+  text-align: center;
+  line-height: 69px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  margin-right: 40px;
+  transition: 0.5s;
+  color: #353535;
+  margin-top: 58px;
+}
+#banner .content_sec a:hover{
+background-color:#ffcc00;
+color: var(--white-color);
+border: transparent;
+transform: scale(0.97);
+border: 1px solid transparent;
+box-shadow: 0px 4px 30px #ffcc0051;
+}
+
+
+#banner .content_sec .banner_social li a{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--white-ase);
+  text-align: center;
+  line-height: 40px;
+  margin-right: 16px;
+}
+
+
+/* banner css end*/
+
