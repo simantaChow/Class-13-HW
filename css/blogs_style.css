@@ -1,0 +1,121 @@
+/* blog_1 css start*/
+#blog_1 .container {
+  width: 1110px;
+  margin: auto;
+  padding: 71px 0 0 0;
+}
+
+#blog_1 .right_side {
+  padding: 0 0 0 50px;
+}
+#blog_1 .right_side h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 164.5%;
+  color: #353535;
+}
+
+#blog_1 .right_side p:nth-child(2) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200.5%;
+  color: #7a7a7a;
+  padding: 22px 0 0 0;
+}
+
+#blog_1 .right_side p:nth-child(3) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 190%;
+  color: #7a7a7a;
+  padding: 42px 0 0 0;
+}
+#blog_1 .right_side p:nth-child(4) {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 190%;
+  color: #353535;
+  padding: 0 0 0 40px;
+}
+/* blog_1 css end*/
+
+/* bolgs_cards css start*/
+#bolgs_cards .container {
+  width: 1110px;
+  margin: 80px auto 0;
+}
+
+#bolgs_cards .card{
+    margin: 0 0 50px 0;
+}
+#bolgs_cards .card .card_img{
+position: relative;
+}
+
+#bolgs_cards .card .card_img .overlay{
+    position: absolute;
+    width: 350px;
+    height: 328px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-radius: 20px;
+    inset: 0;
+    transform: scale(0);
+    transition: 0.6s;
+}
+
+#bolgs_cards .card .card_img:hover .overlay{
+    transform: scale(1);
+}
+
+
+
+
+
+#bolgs_cards .card .overlay i{
+    text-align: center;
+    font-size: 50px;
+    padding: 142px 0 0 147px;
+    color: white;
+}
+
+
+#bolgs_cards .card_text h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 190%;
+  color: #353535;
+}
+
+#bolgs_cards .card_text p:nth-child(2) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200.5%;
+  color: #7a7a7a;
+}
+
+#bolgs_cards .card_text p:nth-child(3) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  color: #7a7a7a;
+}
+
+#bolgs_cards .card_text p:nth-child(4) {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 190%;
+  color: #353535;
+  padding: 0 0 0 50px;
+}
+
+
+/* bolgs_cards css end*/

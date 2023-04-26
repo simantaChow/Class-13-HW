@@ -1,0 +1,157 @@
+/* contact css start*/
+#contact {
+  margin: 200px 0 0 0;
+}
+
+#contact .container {
+  width: 1110px;
+  margin: 0 auto 0;
+}
+
+#contact .address a {
+  width: 70px;
+  height: 70px;
+  left: 165px;
+  top: 401px;
+  border-radius: 50%;
+  background: #ffebdc;
+  color: #f16500;
+  font-size: 30px;
+  text-align: center;
+  padding: 13px 0 0 0;
+}
+#contact .address .address_text {
+  padding: 0 0 0 20px;
+}
+
+#contact .address {
+  margin: 0 0 28px 0;
+}
+
+#contact .address .address_text h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #353535;
+}
+
+#contact .address .address_text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #7a7a7a;
+}
+
+#contact .mail {
+  margin: 0 0 28px 0;
+}
+#contact .mail .address_text {
+  padding: 0 0 0 20px;
+}
+
+#contact .mail .address_text h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #353535;
+}
+
+#contact .mail .address_text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #7a7a7a;
+}
+
+#contact .mail a {
+  width: 70px;
+  height: 70px;
+  left: 165px;
+  top: 401px;
+  border-radius: 50%;
+  background: #f0ffe4;
+  color: #55852f;
+  font-size: 30px;
+  text-align: center;
+  padding: 13px 0 0 0;
+}
+
+#contact .phone {
+  margin: 0 0 28px 0;
+}
+
+#contact .phone a {
+  width: 70px;
+  height: 70px;
+  left: 165px;
+  top: 401px;
+  border-radius: 50%;
+  background: #eef2ff;
+  color: #234bda;
+  font-size: 30px;
+  text-align: center;
+  padding: 13px 0 0 0;
+}
+
+#contact .phone .address_text {
+  padding: 0 0 0 20px;
+}
+
+#contact .phone .address_text h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #353535;
+}
+
+#contact .phone .address_text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #7a7a7a;
+}
+
+#contact .contact_right input {
+  width: 310px;
+  height: 64px;
+  border: 0.5px solid #7a7a7a;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  color: #7a7a7a;
+  padding: 0 0 0 50px;
+  margin: 0 0 20px 10px;
+}
+
+#contact .contact_right textarea {
+  width: 636px;
+  height: 246px;
+  top: 556px;
+  border: 0.5px solid #7a7a7a;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 190%;
+  color: #7a7a7a;
+  padding: 10px 0 0 20px;
+  margin: 0 0 0 10px;
+}
+
+#contact .contact_right button {
+  width: 180px;
+  height: 54px;
+  left: 640px;
+  top: 823px;
+  background: #ffcc00;
+  border-radius: 12px;
+  border: none;
+  margin: 0 0 0 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* contact css end*/

@@ -33,7 +33,7 @@ a {
 
 .container {
   width: 1190px;
-  margin: auto;
+  margin: 0 auto 36px;
 }
 
 .row {
