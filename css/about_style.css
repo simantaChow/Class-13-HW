@@ -1,0 +1,217 @@
+/* aboutme css start*/
+#aboutme .container {
+  position: relative;
+}
+
+#aboutme .ground {
+  margin: auto;
+  z-index: 0;
+}
+
+#aboutme h5 {
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 60px;
+  color: #ffffff;
+  z-index: 1;
+  top: 32px;
+  left: 533px;
+}
+#aboutme p {
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 190%;
+  text-align: center;
+  color: #ffffff;
+  top: 96px;
+  left: 444px;
+}
+
+#aboutme p::after {
+  content: "";
+  border: 1px solid #ffffff;
+  position: absolute;
+  width: 168px;
+  top: 17px;
+  right: -181px;
+}
+#aboutme p::before {
+  content: "";
+  border: 1px solid #ffffff;
+  position: absolute;
+  width: 168px;
+  top: 17px;
+  left: -181px;
+}
+#aboutme .mark {
+  position: absolute;
+  z-index: 1;
+  top: 23px;
+  left: 528px;
+}
+
+/* aboutme css end*/
+
+/* about_details css start*/
+#about_details .about_details_pic {
+  padding: 104px 0 0 36px;
+}
+
+#about_details .about_details_description .description p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 200%;
+  text-align: justify;
+  color: #7a7a7a;
+  width: 791px;
+  padding: 129px 0 0 151px;
+}
+
+#about_details .my_self {
+  padding: 75px 0 0 0;
+}
+
+#about_details .my_self .my_self_left p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 190%;
+  color: #7a7a7a;
+  padding: 19px 0 0 149px;
+}
+#about_details .my_self .my_self_left .download_cv {
+  width: 209px;
+  height: 60px;
+  background-color: var(--yellowBackground);
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--white);
+  text-align: center;
+  padding: 15px 0px 0px;
+  transform: scale(0.95);
+  transition: all 0.5s ease 0s;
+  margin: 25px 0 0 140px;
+}
+#about_details .my_self .my_self_left .download_cv:hover {
+  background-color: var(--yellowBackground);
+  transform: scale(1);
+  color: var(--white);
+  border: 1px solid transparent;
+}
+
+#about_details .my_self .my_self_right p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 190%;
+  color: #7a7a7a;
+  padding: 19px 0 0 120px;
+}
+#about_details hr {
+  margin: 60px 0 0 0;
+}
+/* about_details css end*/
+
+/* experience_education css start*/
+#experience_education .experience h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #353535;
+  margin: 58px 0 43px 0;
+}
+
+#experience_education .visual_designer {
+  width: 538px;
+  padding: 0px 0 37px 162px;
+}
+#experience_education .visual_designer p:nth-child(1) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  color: #7a7a7a;
+}
+
+#experience_education .visual_designer h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  color: #353535;
+}
+
+#experience_education .visual_designer p:nth-child(3) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200.5%;
+  color: #7a7a7a;
+}
+
+#experience_education .visual_designer {
+  position: relative;
+}
+
+#experience_education .visual_designer::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  border: 1px dashed rgb(122, 122, 122);
+  top: 10px;
+  left: 23px;
+}
+
+#experience_education .visual_designer p:nth-child(1)::before {
+  position: absolute;
+  content: "";
+  height: 42px;
+  width: 42px;
+  border: 1px dashed var(--textColor);
+  border-radius: 50%;
+  top: 0px;
+  left: calc(0% + 1.7px);
+  z-index: 1;
+  background: white;
+}
+
+#experience_education .visual_designer h3::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: rgb(82, 171, 112);
+  border-radius: 50%;
+  top: 11px;
+  left: 2.6%;
+  z-index: 2;
+}
+
+#experience_education .education h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #353535;
+  margin: 58px 0 43px 0;
+}
+
+#my_experts_area {
+  padding: 100px 0 0 0;
+}
+#my_experts_area h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #353535;
+}
+/* experience_education css end*/
