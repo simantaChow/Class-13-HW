@@ -2,8 +2,20 @@
 
 :root {
   --textColor: #353535;
-  --yellowBackground: #ffcc00;
+  --yellowBackground: #f1f0e9;
   --white: #ffffff;
+  --whiteTextColor: #000000;
+  --CreamBackGround : #ffffff;;
+  --linerGradient : linear-gradient( 95.13deg, rgb(255, 204, 0) -21.46%, rgb(250, 255, 203) 112.13% );
+}
+
+:root.dark {
+  --textColor: #c3d148;
+  --yellowBackground: #0f0f0e;
+  --white: #2e2323;
+  --whiteTextColor: #FFFFFF;
+  --CreamBackGround : Grey;
+  --linerGradient :linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
 
 * {
@@ -108,6 +120,17 @@ a {
   border-bottom: 1px solid transparent;
   position: relative;
 }
+#navbar button{
+  width: 50px;
+  background: var(--white);
+  border: none;
+  cursor: pointer;
+}
+
+#navbar button i{
+  color: var(--whiteTextColor);
+  font-size: 30px;
+}
 
 #navbar ul li a::before {
   content: "";
@@ -139,6 +162,7 @@ a {
   font-weight: 400;
   font-size: 24px;
   display: inline-block;
+  color: var(--whiteTextColor);
 }
 
 #banner .banner_left_side p:nth-child(4) {
@@ -331,11 +355,7 @@ a {
 
 #aboutMe {
   height: 556px;
-  background: linear-gradient(
-    95.13deg,
-    rgb(255, 204, 0) -21.46%,
-    rgb(250, 255, 203) 112.13%
-    );
+  background: var(--linerGradient);
   }
 #aboutMe .container .row{
   position: relative;
@@ -359,7 +379,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
-  color: rgb(53, 53, 53);
+  color: var(--whiteTextColor);
 }
 
 #aboutMe .aboutMeText p {
@@ -424,6 +444,7 @@ a {
   height: 120px;
   width: 256px;
   margin: 18px 0px 0px;
+  color: var(--whiteTextColor);
 }
 
 /* card css end*/
@@ -433,11 +454,7 @@ a {
 #branding .background {
   width: 1110px;
   height: 473px;
-  background: linear-gradient(
-    95.13deg,
-    rgb(255, 204, 0) -21.46%,
-    rgb(255, 245, 203) 112.13%
-  );
+  background: var(--linerGradient);
   border-radius: 30px;
   position: relative;
 }
@@ -458,7 +475,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
-  color: rgb(53, 53, 53);
+  color: var(--whiteTextColor);
 }
 
 #branding .background p {
@@ -529,14 +546,14 @@ a {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  color: var(--textColor);
+  color: var(--white);
 }
 
 #working_on .card .card_text p {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  color: var(--textColor);
+  color: var(--white);
 }
 
 #working_on .texts {
@@ -601,6 +618,7 @@ a {
   font-weight: 600;
   font-size: 24px;
   color: rgb(53, 53, 53);
+  color: var(--whiteTextColor);
 }
 
 #work_expe .work_exp_items {
@@ -651,6 +669,7 @@ a {
   font-weight: 600;
   font-size: 24px;
   color: rgb(53, 53, 53);
+  color: var(--whiteTextColor);
 }
 
 #work_expe .work_exp_description p {
@@ -675,7 +694,7 @@ a {
   font-size: 50px;
   line-height: 65px;
   /* identical to box height */
-  color: #353535;
+  color: var(--whiteTextColor);
 }
 
 #my_experts_area .experts_areas_text p {
@@ -722,7 +741,7 @@ a {
   font-weight: 500;
   font-size: 18px;
   text-align: center;
-  color: #353535;
+  color: var(--whiteTextColor);
   padding: 15px 0 0 0;
   margin: 0 0 0 15px;
   transition: 0.8s;
@@ -766,7 +785,7 @@ a {
 /* my services css start*/
 #my_service {
   height: 838px;
-  background: #fff7d5;
+  background: var(--CreamBackGround);
   margin: 146px 0 0 0;
 }
 
@@ -790,13 +809,14 @@ a {
 #my_service .service_card {
   width: 350px;
   height: 422px;
-  background: #ffffff;
+  background: var(--yellowBackground);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
   border-radius: 12px;
   text-align: center;
   margin: 100px 0 0 0;
   transition: 0.5s;
   transition-duration: 0.5s;
+  color: var(--whiteTextColor);
 }
 
 #my_service .service_card:hover {
@@ -831,7 +851,7 @@ a {
 /* client_feedback css start*/
 #client_feedback {
   height: 859px;
-  background: #fbfbfb;
+  background: var(--yellowBackground);
   padding: 92px 0 0 0;
 }
 
@@ -841,7 +861,7 @@ a {
   font-weight: 700;
   font-size: 50px;
   line-height: 135.4%;
-  color: #353535;
+  color: var(--whiteTextColor);
 }
 
 #client_feedback p {
@@ -908,6 +928,7 @@ a {
 
 #blog_post .date {
   text-align: right;
+  color: var(--whiteTextColor);
 }
 
 #blog_post .blog_owner_name {
@@ -929,6 +950,7 @@ a {
   font-size: 18px;
   line-height: 190%;
   margin: 30px 0 0 0;
+  color: var(--whiteTextColor);
 }
 
 #blog_post .blog_text h6 {
@@ -938,7 +960,7 @@ a {
   font-size: 20px;
   line-height: 190%;
   /* or 34px */
-  color: #353535;
+  color: var(--whiteTextColor);
   margin: 50px 0 0 0;
 }
 /* blog_post css end*/
@@ -947,7 +969,7 @@ a {
 #newsletter .background {
   width: 1110px;
   height: 295px;
-  background: linear-gradient(95.13deg, #ffcc00 -21.46%, #fff5cb 112.13%);
+  background: var(--linerGradient);
   border-radius: 30px;
 }
 
@@ -960,7 +982,7 @@ a {
   font-weight: 400;
   font-size: 18px;
   /* identical to box height, or 40px */
-  color: #353535;
+  color: var(--whiteTextColor);
 }
 
 #newsletter .background .text_sec h3 {
@@ -969,7 +991,7 @@ a {
   font-size: 36px;
   line-height: 200%;
   /* identical to box height, or 72px */
-  color: #353535;
+  color: var(--whiteTextColor);
 }
 
 #newsletter .background .email {
@@ -1081,12 +1103,12 @@ a {
 #footer .fotter_sec_3 a:nth-child(1) {
   width: 209px;
   height: 69px;
-  background-color: #ffcc00;
+  background-color: var(--yellowBackground);
   border-radius: 20px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  color: var(--textColor);
+  color: var(--whiteTextColor);
   text-align: center;
   padding: 18px 0px 0px;
   margin: 129px 0 0 89px;
